@@ -1,0 +1,33 @@
+.main_body {
+  width: 100%;
+  background-color: aliceblue;
+}
+
+.sub_body {
+  width: 100%;
+  height: 100vh;
+  /* background-color: rgb(13, 255, 174); */
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+.heading1 {
+  font-size: 6rem;
+  font-weight: 800;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(
+    98.82deg,
+    rgba(3, 224, 253, 0.863) 0%,
+    rgba(255, 0, 255, 0.863) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.list_sec {
+  padding-top: 50px !important;
+}
+.list_data_sec:nth-child(2n + 1) {
+  background-color: rgb(245, 252, 255);
+}
