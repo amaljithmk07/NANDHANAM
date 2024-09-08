@@ -8,6 +8,7 @@ import {
   TableRow,
   TableCell
 } from "@nextui-org/table";
+import Link from "next/link";
 const Index = () => {
   return (
     <div>
@@ -15,6 +16,13 @@ const Index = () => {
         <div className={`${home.sub_body} container`}>
           <h1 className={`${home.heading1}`}>നന്ദനം</h1>{" "}
           {/* <h1 className={`${home.heading1}`}>ashagvhsj</h1>{" "} */}
+          <Link href={'/addperson' } className={home.addperson_btn}>Add User</Link>
+          <div className={home.main_body_search_sec}>
+            <input type="text" className={home.main_body_search_input} placeholder="തിരയുക" />
+            <button className={home.main_body_search_btn}>Search</button>
+
+          </div>
+
           <Table
             aria-label="Example static collection table"
             className={home.list_sec}
